@@ -1,6 +1,7 @@
 
 public class DmvSimulator {
 	public static void main(String[] args) {
+		
 		System.out.println("Welcome to the DMV. Please wait until you get a number for your test.");
 		int number = (int)(Math.random() * 100);
 		System.out.println("Your number is " + number + ". Please wait your turn.");
@@ -16,7 +17,7 @@ public class DmvSimulator {
 	        	count++;
 	        	System.out.println("Next in line, number " + count + ".");
 	        } else if (count == number) {
-	        	System.out.println("Sorry, but you do not have the required paperwork.");
+	        	System.out.println("YOU DO NOT HAVE THE REQUIRED PAPERWORK!!");
 	        	num = false;
 	        }
 		}
