@@ -7,6 +7,7 @@ public class DmvSimulator {
 		System.out.println("Your number is " + number + ". Please wait your turn.");
 		
 		int count = number;
+		int chance = (int)(Math.random() * 100);
 		boolean num = true;
 		while ((count <= 200) && (num)){ 
 	        count++;
@@ -17,11 +18,13 @@ public class DmvSimulator {
 	        	count++;
 	        	System.out.println("Next in line, number " + count + ".");
 	        } else if (count == number) {
-
-	        	System.out.println("YOU DO NOT HAVE THE REQUIRED PAPERWORK!! HAAHAHA");
-	        	System.out.println("MWAHAHAHAHA!");
-
-	        	num = false;
+	        	if (chance == 1) {
+	        		System.out.println("You have the required paperwork. You are all set.");
+	        		num = false;
+	        	} else if (chance < 100) {
+	        		System.out.println("YOU DO NOT HAVE THE REQUIRED PAPERWORK!! YOU DO NOT HAVE THE REQUIRED PAPERWORK!! HAAHAHA");
+	        		num = false;
+	        	}
 	        }
 		}
 	        
