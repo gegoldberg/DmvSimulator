@@ -22,9 +22,8 @@ public class DmvSimulator {
 	        		System.out.println("You have the required paperwork. You are all set.");
 	        		num = false;
 	        	} else if (chance < 100) {
-	        	System.out.println("YOU DO NOT HAVE THE REQUIRED PAPERWORK!!");
-	        	System.out.println("MWAHAHAHAHA!");
-	        	num = false;
+	        		System.out.println("YOU DO NOT HAVE THE REQUIRED PAPERWORK!! YOU DO NOT HAVE THE REQUIRED PAPERWORK!! HAAHAHA");
+	        		num = false;
 	        	}
 	        }
 		}
