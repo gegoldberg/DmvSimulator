@@ -18,7 +18,7 @@ public class DmvSimulator {
 	        	System.out.println("Next in line, number " + count + ".");
 	        } else if (count == number) {
 
-	        	System.out.println("YOU DO NOT HAVE THE REQUIRED PAPERWORK!!");
+	        	System.out.println("YOU DO NOT HAVE THE REQUIRED PAPERWORK!! HAAHAHA");
 	        	System.out.println("MWAHAHAHAHA!");
 
 	        	num = false;
