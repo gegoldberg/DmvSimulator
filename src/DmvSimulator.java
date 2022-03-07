@@ -23,6 +23,7 @@ public class DmvSimulator {
 	        		num = false;
 	        	} else if (chance < 100) {
 	        	System.out.println("YOU DO NOT HAVE THE REQUIRED PAPERWORK!!");
+	        	System.out.println("MWAHAHAHAHA!");
 	        	num = false;
 	        	}
 	        }
